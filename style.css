@@ -1,0 +1,2000 @@
+/*
+Theme Name: SuarzBasic
+Theme URI: http://javiersuarezsanchez.com
+Author: Javier Suarez Sanchez
+Author URI: http://javiersuarezsanchez.com
+Description: Tema diseñado para Hormigones Suarez
+Version: 1.0
+*/
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/************************************************************************ XS *************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+@media (max-width:768px){
+	html,body{ 
+		font-size: 62.5%;}
+	footer{
+		background-color:black;
+		color:gray;}
+	#footer1{
+	    text-align:center;}
+	#footer2{
+	    text-align:left;}
+	#footer3{
+	    text-align:right;}
+	p{ 
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight:200!important;
+		margin:0!important;
+		font-size: 1.5rem!important;}
+	h1{	
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 600!important;
+		color:gray!important;
+		font-size: 2.85rem!important;}
+	h2{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 400!important;
+		color:#565656!important;
+		font-size: 2.5rem!important;
+		letter-spacing: 0px!important;
+		word-spacing: 5px!important;}
+	h3{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 300!important;
+		color:gray!important;
+		font-size: 2rem!important;
+		letter-spacing: 0.5px;
+		word-spacing: 5px;}
+	h4{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 400!important;
+		color:gray!important;
+		font-size: 1.8rem!important;}
+	h5{
+		font-family: 'Lato', sans-serif!important;
+		font-weight: 600!important;
+		color:black!important;
+		font-size: 1.5rem!important;}
+	/*general*/
+	#fondo{
+		background-color: white;}
+	/*barra de menu*/
+	#fondomenu{
+		background-color: white;}
+	.navbar{
+		margin-bottom:0px!important;
+		border:1px solid #eeeeee;}
+	.navbar-default{
+		background-color: white!important;}
+	.navbar-brand{
+		padding:0px!important;}
+	.navbar-right .dropdown-menu{
+		right:auto!important;
+		left:0!important;}
+	.navbar-nav li a {
+    	line-height: 120px;
+    	height: 120px;
+    	padding-top: 50px!important;
+    	padding-left:50px!important;
+    	padding-right:0px!important;
+    	min-width:200px;}
+    .navbar-brand{
+    	min-height:95px;}
+     .navbar-toggle{
+     	margin-top:25px!important;
+     	margin-bottom:25px!important;
+    	min-height:45px!important;}
+    .dropdown-menu{
+    	border:0px solid white!important;
+    	padding-top: 0px!important;}
+    .dropdown li a{
+    	line-height: transparent;
+    	height: 80px!important;
+    	min-width:400px;
+    	padding-top: 30px!important;}
+
+
+
+    /*********************************************************************************************************/
+    /*------------------------------------------------------- INDEX -----------------------------------------*/
+    #cycloneslider-principal-1{
+    	margin:0!important;}
+	#divcalidadyconfianza{
+		background-color: white;
+		padding-top:50px!important;}
+	#calidadyconfianza{
+		margin-top:60px!important;
+		margin-bottom:40px!important;}
+	#nuestrotrabajo{
+		color:gray!important;
+		margin-top:40px!important;
+		margin-bottom:120px!important;}
+	#nuestrotrabajo:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#nuestrotrabajo:focus{
+	    outline:0px;}
+	.centrardiv{
+		margin:0 auto;
+		text-align:center;}
+	.height300{
+		height:300px;}
+	.botonarticulo{
+		margin-top:125px;
+		background-color: rgba(0,0,0,0.4)!important;
+		color:white!important; 
+		border:2px solid white!important;}
+	.botonarticulo:hover{
+		background-color: rgba(255,255,255,1)!important;
+		color:rgba(100,100,100,1)!important; 
+		border:2px solid transparent!important;}
+	.botonarticulo:focus{
+	    background-color: rgba(255,255,255,0.5)!important;
+		color:rgba(100,100,100,0.5)!important; 
+		border:2px solid transparent!important;
+	    outline:0px!important;}
+	/*articulos*/
+	#articulo11{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometubospozos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover11{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo12{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homealquilerherramientas.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: bottom; }
+	.articulohover12{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo13{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homehormigonimpreso.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover13{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#articulo14{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometierravegetal.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover14{
+		background-color: rgba(119,96,70,0.7);
+		height: 300px;}
+	#articulo15{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homeventaaridos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover15{
+		background-color: rgba(75,75,75,0.7);
+		height: 300px;}
+	#articulo16{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homegruaelevadora.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: center;}
+	.articulohover16{
+		background-color: rgba(102,53,25,0.7);
+		height: 300px;}
+	#articulo21{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homepatos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover21{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo22{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometrabajando.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: bottom; }
+	.articulohover22{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo23{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homenavidad.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover23{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#transparenciaarticulo21{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo22{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo23{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#divcontactoemail{
+		background-color: white;
+		padding-top:50px!important;}
+	#contactoemail{
+		margin-top:80px;
+		margin-bottom:20px;}
+	#contactoemailtexto{
+		margin-top:20px;
+		margin-bottom:100px;}
+	#botoncontacto{
+		color:gray!important;
+		margin-top:100px;
+		margin-bottom:120px;}
+	#botoncontacto:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botoncontacto:focus{
+	    outline:0px;}
+	/*------------------------------------------------------------------------  HORMIGON - CONCRETE ---------------------------*/
+	.sinpadding{
+		padding:0!important;}
+	#titulohormigon{
+		margin-top:50px;
+		text-align: center;}
+	#textohormigon{
+		margin-top:50px;
+		margin-bottom:50px;}
+	#textofibra{
+		margin-top:60px;
+		margin-bottom:60px;
+		text-align: center;}
+	#textoprobeta{
+		margin-top:60px;
+		text-align: center;}
+	#botonimpreso{
+		color:gray!important;
+		margin-top:100px!important;
+		margin-bottom:120px!important;}
+	#botonimpreso:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botonimpreso:focus{
+	    outline:0px;}
+	.gris{
+		color:gray;}
+	/*-----------------------------------------------------------------------  MATERIALES - MATERIALS ---------------------------*/
+	#prefabricadosdehormigon{
+		text-align:center;}
+	#aridos{
+		text-align: center;}
+	#cabeceramaterial{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoprefabricados.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 50px;}
+	#cabeceraaridos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoaridos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 50px;}
+	.sectionmaterial{
+		margin-bottom:80px;}
+	.tipomaterial{
+	    font-weight:400!important;
+		padding-top:50px;
+		padding-bottom:40px;
+	    border-bottom:2px solid #eeeeee;
+	}
+	.material{
+		margin-top:25px;
+		margin-bottom:50px;
+		min-height:400px;}
+	.titulomaterial{
+		color:gray;
+		text-align: center;}
+	.infomaterial{
+		color:#eeeeee;
+		text-align: center;}
+	/*------------------------------------------------------------------------  MAQUINAS - MACHINES -----------------------------*/
+	.precio{
+	    margin:15px!important;
+	    padding-top:5px;
+	    padding-bottom:5px;
+	    background-color:#75877D!important;
+	    color:white!important;
+	    text-align:center;
+	}
+	#cabeceragrupos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadogrupos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 75px;}
+	#gruposelectrogenos{
+	    text-align:center;}
+	#cabeceracompresores{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadocompresores.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 50px;}
+	#compresores{
+	    text-align:center;}
+	#cabeceramartillos{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/encabezadoherramientas.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 50px;}
+	#martillosdemoledores{
+	    text-align:center;}
+	
+	/*----------------------------------------------------------------------  IMPRESION - IMPRESSED ----------------------------*/
+	#hormigonimpreso1{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresopavimento.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:600px;}
+	#hormigonimpreso2{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresotarima.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:300px;}
+	#textoimpreso1{
+		margin-top:100px;
+		margin-bottom:100px;
+		text-align: center;}
+	#textoimpreso2{
+		margin-top:100px;
+		margin-bottom:100px;
+		text-align: center;}
+	/*------------------------------------------------------------------------  BASCULA - SCALES --------------------------------*/
+	#imagenbascula{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/bascula.jpg");
+		background-position:top right;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 600px;}
+	#titulobascula{
+		margin-top:50px;
+		text-align: center;}
+	#parrafobascula{
+		margin-top:50px;
+		text-align:center;}
+
+
+
+	/*****************************************************************************************************************************/
+	/*----------------------------------------------------------------------------  HISTORIA ------------------------------------*/
+    #logoempresa{
+	    margin:0 auto;
+	    margin-top:100px;
+	    height:150px;
+	    width:150px;}
+	#empresatexto{
+		text-align: center;
+		margin-top:35px;}
+	#historiatexto{
+		margin-top:25px;
+		margin-bottom:100px;
+		background-color: white;
+		text-align: center;}
+	#fotoejemplo1{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto1.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo2{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto2.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo3{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto3.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo4{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto4.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo5{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto5.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo6{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto6.jpg");
+		background-size: cover;
+		background-position: center;}
+	#ejemplo1{
+		height:300px;
+		background-color: #eeeeee;}
+	#ejemplo2{
+		height:300px;
+		background-color: #e0e0e0;}
+	#ejemplo3{
+		height:300px;
+		background-color: #d3d3d3;}
+	#ejemplo4{
+		height:300px;
+		background-color: #a0a0a0;}
+
+
+
+	/******************************************************************************************************************************/
+	/*-----------------------------------------------------------------------------  CONTACTO ------------------------------------*/
+	#plantahormigon{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infoplantahormigon{
+		background-color: white;
+		min-height:400px;}
+	#tituloplantahormigon{
+		background-color: white;
+		text-align:center;
+		margin-bottom:60px;}
+	#textoplantahormigon{
+		text-align: left;}
+	#horarioplantahormigon{
+	    margin-top:50px;
+	    margin-bottom:50px;}
+	#infooficina{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infoplantahormigon:after{
+		content:"";
+		position:absolute;
+		bottom:0;
+		left:10%;
+		height:3px;
+		width:80%;
+		background-color: #eeeeee;}
+	#titulooficina{
+		background-color: white;
+		text-align:center;
+		margin-bottom:60px;}
+	#textooficina{
+		text-align: left;}
+	#horariooficina{
+	    margin-top:50px;
+	    margin-bottom:40px;}
+	.ajustartop{
+		margin-top:5px!important;}
+	.ajustarbottom{
+		margin-bottom:5px!important;}
+	#mapaplantahormigon{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+	#formulariocontacto{
+		height:600px;
+		background-color: #eeeeee;
+		padding:0px!important;}
+	#formularioremitente{
+		color:gray;
+		margin-top:100px;
+		margin-bottom:25px;}
+	#formulariotexto{
+		color:gray;
+		margin-top:25px;
+		margin-bottom:50px;}
+	#mapaoficina{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/************************************************************************ SM *************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+@media (min-width:769px) and (max-width:991px){
+	html,body{
+		font-size: 62.5%;}
+	footer{
+		background-color:black;
+		color:gray;}
+	#footer1{
+	    text-align:center;}
+	#footer2{
+	    text-align:left;}
+	#footer3{
+	    text-align:right;}
+	p{
+	    font-family: 'Exo 2', sans-serif!important;
+		margin:0!important;
+		font-size: 1.6rem!important;}
+	h1{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 4.0rem!important;}
+	h2{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 3.5rem!important;}
+	h3{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.5rem!important;}
+	h4{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.0rem!important;}
+	h5{
+		font-family: 'Lato', sans-serif!important;
+		font-weight: 400!important;
+		color:gray!important;
+		font-size: 1.5rem!important;}
+	/*general*/
+	#fondo{
+		background-color: white;}
+	/*barra de menu*/
+	#fondomenu{
+		background-color: white;}
+	.navbar{
+		margin-bottom:0px!important;
+		border:1px solid #eeeeee;}
+	.navbar-default{
+		background-color: white!important;}
+	.navbar-brand{
+		padding:15px!important;}
+	.navbar-right .dropdown-menu{
+		right:auto!important;
+		left:0!important;}
+	.navbar-nav li a {
+    	line-height: 120px;
+    	height: 120px;
+    	padding-top: 50px!important;
+    	padding-left:50px!important;
+    	padding-right:0px!important;
+    	min-width:200px;}
+    .dropdown-menu{
+    	border:0px solid white!important;
+    	padding-top: 0px!important;}
+    .dropdown li a{
+    	line-height: transparent;
+    	height: 80px!important;
+    	min-width:400px;
+    	padding-top: 30px!important;}
+
+
+
+    /*********************************************************************************************************/
+    /*------------------------------------------------------- INDEX -----------------------------------------*/
+    #cycloneslider{
+    	min-height:200px!important;}
+	#cycloneslider-principal-1{
+		margin-bottom:0px!important;}
+	#divcalidadyconfianza{
+		background-color: white;
+		padding-top:50px!important;}
+	#calidadyconfianza{
+		margin-top:60px!important;
+		margin-bottom:40px!important;}
+	#nuestrotrabajo{
+		color:gray!important;
+		margin-top:40px!important;
+		margin-bottom:120px!important;}
+	#nuestrotrabajo:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#nuestrotrabajo:focus{
+	    outline:0px;}
+	.centrardiv{
+		margin:0 auto;
+		text-align:center;}
+	.height300{
+		height:300px;}
+	.botonarticulo{
+		margin-top:125px;
+		background-color: rgba(0,0,0,0.4)!important;
+		color:white!important; 
+		border:2px solid white!important;}
+	.botonarticulo:hover{
+		background-color: rgba(255,255,255,1)!important;
+		color:rgba(100,100,100,1)!important; 
+		border:2px solid transparent!important;}
+	.botonarticulo:focus{
+	    background-color: rgba(255,255,255,0.5)!important;
+		color:rgba(100,100,100,0.5)!important; 
+		border:2px solid transparent!important;
+	    outline:0px!important;}
+	/*articulos*/
+	#articulo11{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometubospozos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover11{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo12{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homealquilerherramientas.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover12{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo13{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homehormigonimpreso.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover13{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#articulo14{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometierravegetal.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover14{
+		background-color: rgba(119,96,70,0.7);
+		height: 300px;}
+	#articulo15{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homeventaaridos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover15{
+		background-color: rgba(75,75,75,0.7);
+		height: 300px;}
+	#articulo16{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homegruaelevadora.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover16{
+		background-color: rgba(102,53,25,0.7);
+		height: 300px;}
+	#articulo21{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homepatos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover21{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo22{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometrabajando.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: bottom; }
+	.articulohover22{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo23{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homenavidad.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover23{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#transparenciaarticulo21{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo22{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo23{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#divcontactoemail{
+		background-color: white;
+		padding-top:50px!important;}
+	#contactoemail{
+		margin-top:80px;
+		margin-bottom:20px;}
+	#contactoemailtexto{
+		margin-top:20px;
+		margin-bottom:100px;}
+	#botoncontacto{
+		color:gray!important;
+		margin-top:100px;
+		margin-bottom:120px;}
+	#botoncontacto:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botoncontacto:focus{
+	    outline:0px;}
+	/*------------------------------------------------------------------------  HORMIGON - CONCRETE ---------------------------*/
+	.sinpadding{
+		padding:0!important;}
+	#titulohormigon{
+		margin-top:75px;
+		text-align: center;}
+	#textohormigon{
+		margin-top:50px;
+		margin-bottom:100px;}
+	#textofibra{
+		margin-top:100px;
+		margin-bottom:100px;
+		text-align: center;}
+	#textoprobeta{
+		margin-top:120px;
+		text-align: center;}
+	#botonimpreso{
+		color:gray!important;
+		margin-top:100px!important;
+		margin-bottom:100px!important;}
+	#botonimpreso:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botonimpreso:focus{
+	    outline:0px;}
+	.gris{
+		color:gray;}
+	/*-----------------------------------------------------------------------  MATERIALES - MATERIALS ---------------------------*/
+	#cabeceramaterial{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoprefabricados.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 100px;}
+	#cabeceraaridos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoaridos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 75px;}
+	.sectionmaterial{
+		margin-bottom:100px;}
+	.tipomaterial{
+		font-weight:400!important;
+		padding-top:50px;
+		padding-bottom:40px;
+		margin-top:50px;
+	    margin-bottom:50px;
+	    border-bottom:3px solid #eeeeee;
+	}
+	.material{
+		margin-top:25px;
+		margin-bottom:50px;
+		min-height:400px;}
+	.titulomaterial{
+		color:gray;
+		text-align: center;}
+	.infomaterial{
+		color:#eeeeee;
+		text-align: center;}
+	/*------------------------------------------------------------------------  MAQUINAS - MACHINES -----------------------------*/
+	.precio{
+	    margin:15px!important;
+	    padding-top:5px;
+	    padding-bottom:5px;
+	    background-color:#75877D!important;
+	    color:white!important;
+	    text-align:center;}
+	#cabeceragrupos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadogrupos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 100px;}
+	#gruposelectrogenos{
+	    text-align:center;}
+	#cabeceracompresores{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadocompresores.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 75px;}
+	#compresores{
+	    text-align:center;}
+	#cabeceramartillos{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/encabezadoherramientas.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 75px;}
+	#martillosdemoledores{
+	    text-align:center;}
+	/*----------------------------------------------------------------------  IMPRESION - IMPRESSED ----------------------------*/
+	#hormigonimpreso1{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresopavimento.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:600px;}
+	#hormigonimpreso2{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresotarima.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:300px;}
+	#textoimpreso1{
+		margin-top:100px;
+		margin-bottom:100px;
+		text-align: center;}
+	#textoimpreso2{
+		margin-top:100px;
+		margin-bottom:100px;
+		text-align: center;}
+	/*------------------------------------------------------------------------  BASCULA - SCALES --------------------------------*/
+	#imagenbascula{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/bascula.jpg");
+		background-position:top right;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 600px;}
+	#titulobascula{
+		margin-top:50px;
+		text-align: center;}
+	#parrafobascula{
+		margin-top:50px;
+		text-align:center;}
+
+
+
+	/*****************************************************************************************************************************/
+	/*----------------------------------------------------------------------------  HISTORIA ------------------------------------*/
+	#logoempresa{
+	    margin:0 auto;
+	    margin-top:100px;
+	    height:150px;
+	    width:150px;}
+	#empresatexto{
+		text-align: center;
+		margin-top:25px;}
+	#historiatexto{
+		margin-top:80px;
+		margin-bottom:150px;
+		background-color: white;
+		text-align: center;}
+    #fotoejemplo1{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto1.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo2{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto2.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo3{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto3.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo4{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto4.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo5{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto5.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo6{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto6.jpg");
+		background-size: cover;
+		background-position: center;}
+	#ejemplo1{
+		height:300px;
+		background-color: #eeeeee;}
+	#ejemplo2{
+		height:300px;
+		background-color: #e0e0e0;}
+	#ejemplo3{
+		height:300px;
+		background-color: #d3d3d3;}
+	#ejemplo4{
+		height:300px;
+		background-color: #a0a0a0;}
+
+
+
+	/******************************************************************************************************************************/
+	/*-----------------------------------------------------------------------------  CONTACTO ------------------------------------*/
+    #plantahormigon{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infoplantahormigon{
+		background-color: white;
+		min-height:400px;}
+	#tituloplantahormigon{
+		background-color: white;
+		text-align:center;
+		margin-bottom:60px;}
+	#textoplantahormigon{
+		text-align: left;}
+	#horarioplantahormigon{
+	    margin-top:50px;
+	    margin-bottom:50px;}
+	#infooficina{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infoplantahormigon:after{
+		content:"";
+		position:absolute;
+		bottom:0;
+		left:10%;
+		height:3px;
+		width:80%;
+		background-color: #eeeeee;}
+	#titulooficina{
+		background-color: white;
+		text-align:center;
+		margin-bottom:60px;}
+	#textooficina{
+		text-align: left;}
+	#horariooficina{
+	    margin-top:50px;
+	   margin-bottom:40px;}
+	.ajustartop{
+		margin-top:5px!important;}
+	.ajustarbottom{
+		margin-bottom:5px!important;}
+	#mapaplantahormigon{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+	#formulariocontacto{
+		height:600px;
+		background-color: #eeeeee;
+		padding:0px!important;}
+	#formularioremitente{
+		color:gray;
+		margin-top:100px;
+		margin-bottom:25px;}
+	#formulariotexto{
+		color:gray;
+		margin-top:25px;
+		margin-bottom:50px;}
+	#mapaoficina{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/************************************************************************ MD *************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+@media (min-width:992px) and (max-width:1169px){
+	html,body{
+		font-size: 62.5%;}
+	footer{
+		background-color:black;
+		color:gray;}
+	#footer1{
+	    text-align:center;}
+	#footer2{
+	    text-align:left;}
+	#footer3{
+	    text-align:right;}
+	p{
+	    font-family: 'Exo 2', sans-serif!important;
+		margin:0!important;
+		font-size: 1.6rem!important;}
+	h1{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 4.0rem!important;}
+	h2{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 3.5rem!important;}
+	h3{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.5rem!important;}
+	h4{
+		font-family: 'Exo 2', sans-serif!important;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.0rem!important;}
+	h5{
+		font-family: 'Lato', sans-serif!important;
+		font-weight: 400!important;
+		color:gray!important;
+		font-size: 1.5rem!important;}
+	/*general*/
+	#fondo{
+		background-color: white;}
+	/*barra de menu*/
+	#fondomenu{
+		background-color: white;}
+	.navbar{
+		margin-bottom:0px!important;
+		border:1px solid #eeeeee;}
+	.navbar-default{
+		background-color: white!important;}
+	.navbar-brand{
+		padding:15px!important;}
+	.navbar-right .dropdown-menu{
+		right:auto!important;
+		left:0!important;}
+	.navbar-nav li a {
+    	line-height: 120px;
+    	height: 120px;
+    	padding-top: 50px!important;
+    	padding-left:50px!important;
+    	padding-right:0px!important;
+    	min-width:200px;}
+    .dropdown-menu{
+    	border:0px solid white!important;
+    	padding-top: 0px!important;}
+    .dropdown li a{
+    	line-height: transparent;
+    	height: 80px!important;
+    	min-width:400px;
+    	padding-top: 30px!important;}
+
+
+
+    /*********************************************************************************************************/
+    /*------------------------------------------------------- INDEX -----------------------------------------*/
+    #cycloneslider{
+    	min-height:200px!important;}
+	#cycloneslider-principal-1{
+		margin-bottom:0px!important;}
+	#divcalidadyconfianza{
+		background-color: white;
+		padding-top:50px!important;}
+	#calidadyconfianza{
+		margin-top:60px!important;
+		margin-bottom:40px!important;}
+	#nuestrotrabajo{
+		color:gray!important;
+		margin-top:40px!important;
+		margin-bottom:120px!important;}
+	#nuestrotrabajo:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#nuestrotrabajo:focus{
+	    outline:0px;}
+	.centrardiv{
+		margin:0 auto;
+		text-align:center;}
+	.height300{
+		height:300px;}
+	.botonarticulo{
+		margin-top:125px;
+		background-color: rgba(0,0,0,0.4)!important;
+		color:white!important; 
+		border:2px solid white!important;}
+	.botonarticulo:hover{
+		background-color: rgba(255,255,255,1)!important;
+		color:rgba(100,100,100,1)!important; 
+		border:2px solid transparent!important;}
+	.botonarticulo:focus{
+	    background-color: rgba(255,255,255,0.5)!important;
+		color:rgba(100,100,100,0.5)!important; 
+		border:2px solid transparent!important;
+	    outline:0px!important;}
+	/*articulos*/
+	#articulo11{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometubospozos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover11{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo12{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homealquilerherramientas.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover12{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo13{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homehormigonimpreso.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover13{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#articulo14{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometierravegetal.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover14{
+		background-color: rgba(119,96,70,0.7);
+		height: 300px;}
+	#articulo15{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homeventaaridos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover15{
+		background-color: rgba(75,75,75,0.7);
+		height: 300px;}
+	#articulo16{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homegruaelevadora.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover16{
+		background-color: rgba(102,53,25,0.7);
+		height: 300px;}
+	#articulo21{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homepatos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover21{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo22{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometrabajando.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: bottom; }
+	.articulohover22{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo23{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homenavidad.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover23{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#transparenciaarticulo21{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo22{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo23{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#divcontactoemail{
+		background-color: white;
+		padding-top:50px!important;}
+	#contactoemail{
+		margin-top:80px;
+		margin-bottom:20px;}
+	#contactoemailtexto{
+		margin-top:20px;
+		margin-bottom:100px;}
+	#botoncontacto{
+		color:gray!important;
+		margin-top:100px;
+		margin-bottom:120px;}
+	#botoncontacto:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botoncontacto:focus{
+	    outline:0px;}
+	/*------------------------------------------------------------------------  HORMIGON - CONCRETE ---------------------------*/
+	.sinpadding{
+		padding:0!important;}
+	#titulohormigon{
+		margin-top:50px;
+		text-align: center;}
+	#textohormigon{
+		margin-top:50px;}
+	#textofibra{
+		margin-top:120px;
+		text-align: center;}
+	#textoprobeta{
+		margin-top:120px;
+		text-align: center;}
+	#botonimpreso{
+		color:gray!important;
+		margin-top:100px!important;
+		margin-bottom:120px!important;}
+	#botonimpreso:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botonimpreso:focus{
+	    outline:0px;}
+	.gris{
+		color:gray;}
+	/*-----------------------------------------------------------------------  MATERIALES - MATERIALS ---------------------------*/
+	#cabeceramaterial{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoprefabricados.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 200px;}
+	#cabeceraaridos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoaridos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 100px;}
+	.sectionmaterial{
+		margin-bottom:100px;}
+	.tipomaterial{
+		margin-top:50px;
+		margin-bottom:50px;
+	    border-bottom:3px solid #eeeeee;}
+	.material{
+		margin-top:25px;
+		margin-bottom:50px;
+		min-height:400px;}
+	.titulomaterial{
+		color:gray;
+		text-align: center;}
+	.infomaterial{
+		color:#eeeeee;
+		text-align: center;}
+	/*------------------------------------------------------------------------  MAQUINAS - MACHINES -----------------------------*/
+	.precio{
+	    margin:15px!important;
+	    padding-top:5px;
+	    padding-bottom:5px;
+	    background-color:#75877D!important;
+	    color:white!important;
+	    text-align:center;}
+	#cabeceragrupos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadogrupos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 200px;}
+	#gruposelectrogenos{
+	    text-align:left;}
+	#cabeceracompresores{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadocompresores.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 100px;}
+	#compresores{
+	    text-align:left;}
+	#cabeceramartillos{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/encabezadoherramientas.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 100px;}
+	#martillosdemoledores{
+	    text-align:left;}
+	/*----------------------------------------------------------------------  IMPRESION - IMPRESSED ----------------------------*/
+	#hormigonimpreso1{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresopavimento.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:600px;}
+	#hormigonimpreso2{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresotarima.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:300px;}
+	#textoimpreso1{
+		margin-top:200px;
+		margin-bottom:50px;
+		text-align: center;}
+	#textoimpreso2{
+		margin-top:150px;
+		margin-bottom:50px;
+		text-align: center;}
+	/*------------------------------------------------------------------------  BASCULA - SCALES --------------------------------*/
+	#imagenbascula{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/bascula.jpg");
+		background-position:top right;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 600px;}
+	#titulobascula{
+		margin-top:50px;
+		text-align: center;}
+	#parrafobascula{
+		margin-top:50px;
+		text-align:center;}
+
+
+
+	/*****************************************************************************************************************************/
+	/*----------------------------------------------------------------------------  HISTORIA ------------------------------------*/
+	#logoempresa{
+	    margin:0 auto;
+	    margin-top:100px;
+	    height:150px;
+	    width:150px;}
+	#empresatexto{
+		text-align: center;
+		margin-top:25px;}
+	#historiatexto{
+		margin-top:80px;
+		margin-bottom:150px;
+		background-color: white;
+		text-align: center;}
+	#fotoejemplo1{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto1.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo2{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto2.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo3{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto3.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo4{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto4.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo5{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto5.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo6{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto6.jpg");
+		background-size: cover;
+		background-position: center;}
+	#ejemplo1{
+		height:300px;
+		background-color: #eeeeee;}
+	#ejemplo2{
+		height:300px;
+		background-color: #e0e0e0;}
+	#ejemplo3{
+		height:300px;
+		background-color: #d3d3d3;}
+	#ejemplo4{
+		height:300px;
+		background-color: #a0a0a0;}
+
+
+
+	/******************************************************************************************************************************/
+	/*-----------------------------------------------------------------------------  CONTACTO ------------------------------------*/
+	#plantahormigon{
+		background-color: white;
+		min-height:400px;}
+	#infoplantahormigon{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#tituloplantahormigon{
+		background-color: white;
+		text-align:left;
+		margin-bottom:30px;}
+	#textoplantahormigon{
+		text-align: left;}
+	#horarioplantahormigon{
+	    margin-top:50px;
+	    margin-bottom:50px;
+	}
+	#infooficina{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infooficina:before{
+		content:"";
+		position:absolute;
+		top:10%;
+		left:0px;
+		width:3px;
+		height:80%;
+		background-color: #eeeeee;}
+	#titulooficina{
+		background-color: white;
+		text-align:left;
+		margin-bottom:30px;}
+	#textooficina{
+		text-align: left;}
+	#horariooficina{
+	    margin-top:50px;
+	    margin-bottom:40px;}
+	.ajustartop{
+		margin-top:5px!important;}
+	.ajustarbottom{
+		margin-bottom:5px!important;}
+	#mapaplantahormigon{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+	#formulariocontacto{
+		height:600px;
+		background-color: #eeeeee;
+		padding:0px!important;}
+	#formularioremitente{
+		color:gray;
+		margin-top:100px;
+		margin-bottom:25px;}
+	#formulariotexto{
+		color:gray;
+		margin-top:25px;
+		margin-bottom:50px;}
+	#mapaoficina{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+}
+
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/************************************************************************ LG *************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+/*****************************************************************************************************************************************************/
+@media (min-width:1170px){
+	html,body{
+		font-size: 62.5%;}
+	footer{
+		background-color:black;
+		color:gray;}
+	#footer1{
+	    text-align:center;}
+	#footer2{
+	    text-align:left;}
+	#footer3{
+	    text-align:right;}
+	p{
+		font-family: 'Titillium Web', sans-serif;
+		margin:0!important;
+		font-size: 1.6rem;}
+	h1{
+		font-family: 'Poiret One', cursive;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 4.0rem!important;}
+	h2{
+		font-family: 'Poiret One', cursive;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 3.5rem!important;}
+	h3{
+		font-family: 'Poiret One', cursive;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.5rem!important;}
+	h4{
+		font-family: 'Poiret One', cursive;
+		font-weight: 100!important;
+		color:gray!important;
+		font-size: 2.0rem!important;}
+	h5{
+		font-family: 'Poiret One', cursive;
+		font-weight: 400!important;
+		color:gray!important;
+		font-size: 1.5rem!important;}
+	h6{
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 0.5rem;
+	}
+	/*general*/
+	#fondo{
+		background-color: white;}
+	/*barra de menu*/
+	#fondomenu{
+		background-color: white;}
+	.navbar{
+		margin-bottom:0px!important;
+		border:1px solid #eeeeee;}
+	.navbar-default{
+		background-color: white!important;}
+	.navbar-brand{
+		padding:15px!important;}
+	.navbar-right .dropdown-menu{
+		right:auto!important;
+		left:0!important;}
+	.navbar-nav li a {
+    	line-height: 120px;
+    	height: 120px;
+    	padding-top: 50px!important;
+    	padding-left:50px!important;
+    	padding-right:0px!important;
+    	min-width:200px;}
+    .dropdown-menu{
+    	border:0px solid white!important;
+    	padding-top: 0px!important;}
+    .dropdown li a{
+    	line-height: transparent;
+    	height: 80px!important;
+    	min-width:400px;
+    	padding-top: 30px!important;}
+
+
+    /*********************************************************************************************************/
+    /*------------------------------------------------------- INDEX -----------------------------------------*/
+    #cycloneslider{
+    	min-height:200px!important;}
+	#cycloneslider-principal-1{
+		margin-bottom:0px!important;}
+	#divcalidadyconfianza{
+		background-color: white;
+		padding-top:50px!important;}
+	#calidadyconfianza{
+		margin-top:60px!important;
+		margin-bottom:40px!important;}
+	#nuestrotrabajo{
+		color:gray!important;
+		margin-top:40px!important;
+		margin-bottom:120px!important;}
+	#nuestrotrabajo:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#nuestrotrabajo:focus{
+	    outline:0px;}
+	.centrardiv{
+		margin:0 auto;
+		text-align:center;}
+	.height300{
+		height:300px;}
+	.botonarticulo{
+		margin-top:125px;
+		background-color: rgba(0,0,0,0.4)!important;
+		color:white!important; 
+		border:2px solid white!important;}
+	.botonarticulo:hover{
+		background-color: rgba(255,255,255,1)!important;
+		color:rgba(100,100,100,1)!important; 
+		border:2px solid transparent!important;}
+	.botonarticulo:focus{
+	    background-color: rgba(255,255,255,0.5)!important;
+		color:rgba(100,100,100,0.5)!important; 
+		border:2px solid transparent!important;
+	    outline:0px!important;}
+	/*articulos*/
+	#articulo11{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometubospozos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover11{
+		background-color: rgba(115,115,115,0.7)!important;
+		height:300px;}
+	#articulo12{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homealquilerherramientas.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover12{
+		background-color: rgba(181,165,61,0.7)!important;
+		height:300px;}
+	#articulo13{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homehormigonimpreso.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover13{
+		background-color: rgba(48,68,63,0.7)!important;
+		height: 300px;}
+	#articulo14{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometierravegetal.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover14{
+		background-color: rgba(119,96,70,0.7);
+		height: 300px;}
+	#articulo15{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homeventaaridos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover15{
+		background-color: rgba(75,75,75,0.7);
+		height: 300px;}
+	#articulo16{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homegruaelevadora.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	.articulohover16{
+		background-color: rgba(102,53,25,0.7);
+		height: 300px;}
+	#articulo21{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homepatos.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	#articulo22{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/hometrabajando.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position: bottom;}
+	#articulo23{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/homenavidad.jpg");
+		background-size: cover;
+		background-repeat:no-repeat;}
+	#transparenciaarticulo21{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo22{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#transparenciaarticulo23{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;}
+	#divcontactoemail{
+		background-color: white;
+		padding-top:50px!important;}
+	#contactoemail{
+		margin-top:80px;
+		margin-bottom:20px;}
+	#contactoemailtexto{
+		margin-top:20px;
+		margin-bottom:100px;}
+	#botoncontacto{
+		color:gray!important;
+		margin-top:100px;
+		margin-bottom:120px;}
+	#botoncontacto:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botoncontacto:focus{
+	    outline:0px;}
+	/*------------------------------------------------------------------------  HORMIGON - CONCRETE ---------------------------*/
+	.sinpadding{
+		padding:0!important;}
+	#titulohormigon{
+		margin-top:50px;
+		text-align: center;}
+	#textohormigon{
+		margin-top:50px;}
+	#textofibra{
+		margin-top:120px;
+		text-align: center;}
+	#textoprobeta{
+		margin-top:120px;
+		text-align: center;}
+	#botonimpreso{
+		color:gray!important;
+		margin-top:100px!important;
+		margin-bottom:120px!important;}
+	#botonimpreso:hover{
+		color: white!important;
+		background-color: #871526!important;
+		border-color:white!important;}
+	#botonimpreso:focus{
+	    outline:0px;}
+	.gris{
+		color:gray;}
+	/*-----------------------------------------------------------------------  MATERIALES - MATERIALS ---------------------------*/
+	#cabeceramaterial{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoprefabricados.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 200px;}
+	#cabeceraaridos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/materialesencabezadoaridos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 125px;}
+	.sectionmaterial{
+		margin-bottom:100px;}
+	.tipomaterial{
+		margin-top:50px;
+		margin-bottom:50px;
+	    border-bottom:3px solid #eeeeee;
+	}
+	.material{
+		margin-top:25px;
+		margin-bottom:50px;
+		min-height:400px;}
+	.titulomaterial{
+		color:gray;
+		text-align: center;}
+	.infomaterial{
+		color:#eeeeee;
+		text-align: center;}
+	/*------------------------------------------------------------------------  MAQUINAS - MACHINES -----------------------------*/
+	.precio{
+	    margin:15px!important;
+	    padding-top:5px;
+	    padding-bottom:5px;
+	    background-color:#75877D!important;
+	    color:white!important;
+	    text-align:center;}
+	#cabeceragrupos{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadogrupos.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 200px;}
+	#gruposelectrogenos{
+	    text-align:left;}
+	#cabeceracompresores{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/alquilerencabezadocompresores.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 125px;}
+	#compresores{
+	    text-align:left;}
+	#cabeceramartillos{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/03/encabezadoherramientas.jpg");
+		background-position:top;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 125px;}
+	#martillosdemoledores{
+	    text-align:left;}
+	/*----------------------------------------------------------------------  IMPRESION - IMPRESSED ----------------------------*/
+	#hormigonimpreso1{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresopavimento.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:600px;}
+	#hormigonimpreso2{
+		background-position:top;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/impresotarima.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height:300px;}
+	#textoimpreso1{
+		margin-top:200px;
+		margin-bottom:50px;
+		text-align: center;}
+	#textoimpreso2{
+		margin-top:150px;
+		margin-bottom:50px;
+		text-align: center;}
+	/*------------------------------------------------------------------------  BASCULA - SCALES --------------------------------*/
+	#imagenbascula{
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/bascula.jpg");
+		background-position:top right;
+		background-size: cover;
+		background-repeat: no-repeat;  
+		height: 600px;}
+	#titulobascula{
+		margin-top:50px;
+		text-align: center;}
+	#parrafobascula{
+		margin-top:50px;
+		text-align:center;}
+
+
+
+	/*****************************************************************************************************************************/
+	/*----------------------------------------------------------------------------  HISTORIA ------------------------------------*/
+	#logoempresa{
+	    margin:0 auto;
+	    margin-top:100px;
+	    height:150px;
+	    width:150px;}
+	#empresatexto{
+		text-align: center;
+		margin-top:25px;}
+	#historiatexto{
+		margin-top:80px;
+		margin-bottom:150px;
+		background-color: white;
+		text-align: center;}
+	#fotoejemplo1{
+		height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto1.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo2{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto2.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo3{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto3.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo4{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto4.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo5{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto5.jpg");
+		background-size: cover;
+		background-position: center;}
+	#fotoejemplo6{
+	    height:300px;
+		background-image: url("http://hormigonessuarez.com/wp-content/uploads/2016/02/foto6.jpg");
+		background-size: cover;
+		background-position: center;}
+	#ejemplo1{
+		height:300px;
+		background-color: #eeeeee;}
+	#ejemplo2{
+		height:300px;
+		background-color: #e0e0e0;}
+	#ejemplo3{
+		height:300px;
+		background-color: #d3d3d3;}
+	#ejemplo4{
+		height:300px;
+		background-color: #a0a0a0;}
+
+
+    /*****************************************************************************************************************************/
+	/*----------------------------------------------------------------------------  EMPRESA ------------------------------------*/
+	
+	
+
+	/******************************************************************************************************************************/
+	/*-----------------------------------------------------------------------------  CONTACTO ------------------------------------*/
+	#plantahormigon{
+		background-color: white;
+		min-height:400px;}
+	#infoplantahormigon{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#tituloplantahormigon{
+		background-color: white;
+		text-align:left;
+		margin-bottom:30px;}
+	#textoplantahormigon{
+		text-align: left;}
+	#horarioplantahormigon{
+	    margin-top:50px;}
+	#infooficina{
+		background-color: white;
+		min-height:400px;
+		margin-top:30px;
+		margin-bottom:30px;}
+	#infooficina:before{
+		content:"";
+		position:absolute;
+		top:10%;
+		left:0px;
+		width:3px;
+		height:80%;
+		background-color: #eeeeee;}
+	#titulooficina{
+		background-color: white;
+		text-align:left;
+		margin-bottom:30px;}
+	#textooficina{
+		text-align: left;}
+	#horariooficina{
+	    margin-top:50px;}
+	.ajustartop{
+		margin-top:5px!important;}
+	.ajustarbottom{
+		margin-bottom:5px!important;}
+	#mapaplantahormigon{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+	#formulariocontacto{
+		height:600px;
+		background-color: #eeeeee;
+		padding:0px!important;}
+	#formularioremitente{
+		color:gray;
+		margin-top:100px;
+		margin-bottom:25px;}
+	#formulariotexto{
+		color:gray;
+		margin-top:25px;
+		margin-bottom:50px;}
+	#mapaoficina{
+		height:400px;
+		background-color: white;
+		padding:0px!important;}
+}
